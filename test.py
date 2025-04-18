@@ -7,7 +7,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Ensure your environment variable is set
-huggingface_token = os.getenv("HUGGINGFACE_HUB_TOKEN_3.2-3B-instruct", "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")
+huggingface_token = os.getenv("HUGGINGFACE_HUB_TOKEN_3.2-3B-instruct", "your_huggingface_token_here")
 
 model_name = "meta-llama/Llama-3.2-3B-Instruct"
 logger.info(f"Loading model: {model_name}")

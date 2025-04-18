@@ -5,7 +5,7 @@ from transformers import DistilBertTokenizer, DistilBertForSequenceClassificatio
 from datasets import Dataset
 
 # Set your Hugging Face token
-DistilBERTtoken = "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"
+DistilBERTtoken = "your_huggingface_token_here"
 
 # Load the tokenizer and model
 model_name = "distilbert-base-uncased"

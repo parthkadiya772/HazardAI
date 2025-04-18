@@ -7,9 +7,9 @@ app = Flask(__name__)
 CORS(app)  # Enable CORS
 
 # Ensure your environment variable is set
-HUGGINGFACE_HUB_TOKEN = "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"
+HUGGINGFACE_HUB_TOKEN = "your_huggingface_token_here"
 
-model_name = "meta-llama/Llama-3.2-1B"
+model_name = "meta-llama/Llama-3.2-1B" # Replace with your model name
 tokenizer = AutoTokenizer.from_pretrained(model_name, token=HUGGINGFACE_HUB_TOKEN)
 model = AutoModelForCausalLM.from_pretrained(model_name, token=HUGGINGFACE_HUB_TOKEN)
 

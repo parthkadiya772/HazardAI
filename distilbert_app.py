@@ -7,7 +7,7 @@ distilbert_app = Flask(__name__)
 CORS(distilbert_app)  # Enable CORS
 
 # Load the tokenizer and model
-model_name = "./trained_model"
+model_name = "./trained_model" # Path to your trained model
 tokenizer = DistilBertTokenizer.from_pretrained(model_name)
 model = DistilBertForSequenceClassification.from_pretrained(model_name)
 
