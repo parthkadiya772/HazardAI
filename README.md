@@ -143,7 +143,8 @@ Pull requests and issues are welcome! Please open an issue for feature requests 
 
 ## License
 
-[MIT License] (or specify your license)
+This project is licensed under the GNU General Public License v3.0.  
+See the [LICENSE](./LICENSE) file for details.
 
 ---
 
